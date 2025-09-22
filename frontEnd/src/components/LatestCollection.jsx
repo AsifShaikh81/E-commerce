@@ -33,10 +33,10 @@ text-gray-600"
         {LatestProducts.map((item, index) => (
           <ProductItem
             key={index}
-            idd={item._id}
-            imagee={item.image}
-            namee={item.name}
-            pricee={item.price}
+            id={item._id}
+            image={item.image}
+            name={item.name}
+            price={item.price}
           />
         ))}
       </div>
