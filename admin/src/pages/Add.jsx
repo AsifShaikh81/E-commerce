@@ -290,12 +290,12 @@ const Add = ({ token }) => {
           type="checkbox"
           id="bestseller"
         />
-        <label className="cursor-pointer" htmlFor="bestseller">
+        <label className='cursor-pointer' htmlFor="bestseller">
           Add to bestseller
         </label>
       </div>
 
-      <button type="submit" className="w-28 py-3 mt-4 bg-black text-white">
+      <button type="submit" className="w-28 py-3 mt-4 bg-black text-white cursor-pointer">
         ADD
       </button>
     </form>
