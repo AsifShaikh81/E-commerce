@@ -20,7 +20,7 @@ const Navbar = () => {
     navigate("/login");
   };
   return (
-    <div className="flex items-center justify-between py-5 font-medium">
+    <div className="w-full fixed top-0 left-0 z-50 bg-[#d5c8bd] py-4 font-medium flex items-center justify-between px-6">  
       <Link to="/">
         <img src={assets.logo} className="w-36" />
       </Link>

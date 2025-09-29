@@ -31,7 +31,7 @@ const Cart = () => {
   }, [cartItems, products]);
 
   return (
-    <div className="border-t pt-14">
+    <div className="border-t pt-23">
       <div className=" text-2xl mb-3">
         <Title text1={"YOUR"} text2={"CART"} />
       </div>
@@ -41,6 +41,7 @@ const Cart = () => {
           const productData = products.find(
             (product) => product._id === item._id
           );
+          if (!productData) return null; // ✅ skip if not found
 
           return (
             <div

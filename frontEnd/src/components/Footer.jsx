@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <div className="my-10 mt-40 text-sm">
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14">
+        {/*  bg-[#d5c8bd] */}
         {/* Column 1 */}
         <div>
           <img src={assets.logo} className="mb-5 w-32" alt="" />
@@ -35,6 +36,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-1 text-gray-600">
             <li>+91 123456789</li>
             <li>contact@example.com</li>
+            <li><a href="https://github.com/AsifShaikh81" target="_blank">Github</a></li>
           </ul>
         </div>
       </div>
@@ -42,9 +44,10 @@ const Footer = () => {
         <hr />
         <p
           className="py-5
-        text-sm text-center"
-        >Copyright 2024@ forever.com -
-All Right Reserved</p>
+          text-sm text-center"
+        >
+          Copyright 2024@ AsifShaikh.com - All Right Reserved
+        </p>
       </div>
     </div>
   );

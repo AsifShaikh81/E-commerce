@@ -3,6 +3,9 @@ import cors from 'cors'
 import dotenv from "dotenv";
 
 dotenv.config({ path: "./config/.env" });
+
+
+
 import connectDB from './config/mongodb.js'
 import connectCloudinary from './config/cloudinary.js';
 import userRouter from './routes/userRoutes.js';
